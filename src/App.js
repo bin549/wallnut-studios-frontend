@@ -1,8 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import { useState } from 'react';
+import Todo from './components/Todo';
 
-
-export default function Square() {
-  return <button className="square">X</button>;
+function App() {
+  return (
+    <div>
+      <h1>My Todos</h1>
+      <Todo text='Learn React' />
+    </div>
+  );
 }
+
+export default App;
