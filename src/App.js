@@ -1,29 +1,32 @@
-import { useState } from 'react';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
-import Header from './components/Layout/Header';
-import Meals from './components/Meals/Meals';
-import Cart from './components/Cart/Cart';
-import CartProvider from './store/CartProvider';
+import AllQuotes from './pages/AllQuotes';
+import QuoteDetail from './pages/QuoteDetail';
+import NewQuote from './pages/NewQuote';
+import NotFound from './pages/NotFound';
+import Layout from './components/layout/Layout';
 
 function App() {
-  const [cartIsShown, setCartIsShown] = useState(false);
-
-  const showCartHandler = () => {
-    setCartIsShown(true);
-  };
-
-  const hideCartHandler = () => {
-    setCartIsShown(false);
-  };
-
   return (
-    <CartProvider>
-      {cartIsShown && <Cart onClose={hideCartHandler} />}
-      <Header onShowCart={showCartHandler} />
-      <main>
-        <Meals />
-      </main>
-    </CartProvider>
+    <Layout>
+      <Switch>
+        <Route path='/' exact>
+          <Redirect to='/quotes' />
+        </Route>
+        <Route path='/quotes' exact>
+          <AllQuotes />
+        </Route>
+        <Route path='/quotes/:quoteId'>
+          <QuoteDetail />
+        </Route>
+        <Route path='/new-quote'>
+          <NewQuote />
+        </Route>
+        <Route path='*'>
+          <NotFound />
+        </Route>
+      </Switch>
+    </Layout>
   );
 }
 
