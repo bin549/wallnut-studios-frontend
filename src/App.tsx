@@ -1,13 +1,11 @@
-import NewTodo from './components/NewTodo';
-import Todos from './components/Todos';
-import TodosContextProvider from './store/todos-context';
+import Layout from './components/layout/Layout';
+
 
 function App() {
   return (
-    <TodosContextProvider>
-      <NewTodo />
-      <Todos />
-    </TodosContextProvider>
+    <Layout>
+
+    </Layout>
   );
 }
 
