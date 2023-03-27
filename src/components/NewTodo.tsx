@@ -6,7 +6,6 @@ import classes from './NewTodo.module.css';
 const NewTodo: React.FC = () => {
   const todosCtx = useContext(TodosContext);
   const todoTextInputRef = useRef<HTMLInputElement>(null);
-  addMovieHandler();
   const submitHandler = (event: React.FormEvent) => {
     event.preventDefault();
     // if (enteredText.trim().length === 0) {
@@ -16,15 +15,8 @@ const NewTodo: React.FC = () => {
   };
 
   async function addMovieHandler() {
-    const response = await fetch('http://127.0.0.1:5000/api/orders/orders/', {
-      method: 'GET',
-      mode: "cors",
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    })
-    const data = await response.json();;
-    console.log(data);
+
+    
   }
 
   return (
