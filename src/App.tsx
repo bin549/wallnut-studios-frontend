@@ -19,6 +19,7 @@ function App() {
                     C#,
                     Dart,
                     Swift,
+                    kotlin,
                     GdScript
                 </div>
                 <br/>
@@ -31,7 +32,7 @@ function App() {
                 <div>
                     Backend Framework:
                     <br/>
-                    Django, FastAPI, SpringWeb, Flask
+                    Django, FastAPI, SpringWeb, Gin, Flask
                 </div>
                 <br/>
                 <div>
@@ -61,7 +62,7 @@ function App() {
                 <div>
                     Video:
                     <br/>
-                    Pr
+                    Pr, Kdenlive
                 </div>
                 <br/>
                 <div>
@@ -101,9 +102,21 @@ function App() {
                 </div>
                 <br/>
                 <div>
-                    Spider:
+                    Web Spider Tool:
                     <br/>
-                    Scrapy
+                    Scrapy, Selenium, Requests
+                </div>
+                <br/>
+                <div>
+                    Things I like:
+                    <br/>
+                    Game, Book, Movie, Music
+                </div>
+                <br/>
+                <div>
+                    Sport I like:
+                    <br/>
+                    Run
                 </div>
                 <br/>
             </div>

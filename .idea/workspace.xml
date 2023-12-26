@@ -7,7 +7,6 @@
     <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="feat: add github line.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/MainNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/MainNavigation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +82,7 @@
       <workItem from="1703514202824" duration="1064000" />
       <workItem from="1703555814429" duration="110000" />
       <workItem from="1703560322794" duration="7027000" />
+      <workItem from="1703583098760" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add my skill panel.">
       <option name="closed" value="true" />
