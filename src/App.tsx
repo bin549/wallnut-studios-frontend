@@ -30,7 +30,6 @@ function App() {
                     <div className={classes.content}>
                         Godot, Unity, Bevy, Pygame
                     </div>
-
                 </div>
                 <br/>
                 <div>
@@ -56,7 +55,7 @@ function App() {
                 <br/>
                 <div>
                     <h5 className={classes.title}>Desktop Framework</h5>
-                    <div className={classes.content}> Qt
+                    <div className={classes.content}> Qt, .NET
                     </div>
                 </div>
                 <br/>
@@ -73,8 +72,14 @@ function App() {
                 </div>
                 <br/>
                 <div>
-                    <h5 className={classes.title}>Image Software</h5>
-                    <div className={classes.content}> Photoshop, Asprite, Pyxel Pixelorama, Blender
+                    <h5 className={classes.title}>2D Art Software</h5>
+                    <div className={classes.content}> Photoshop, Asprite, Pyxel Pixelorama
+                    </div>
+                </div>
+                <br/>
+                <div>
+                    <h5 className={classes.title}>3D Art Software</h5>
+                    <div className={classes.content}> Blender, Material Maker
                     </div>
                 </div>
                 <br/>
@@ -91,14 +96,8 @@ function App() {
                 </div>
                 <br/>
                 <div>
-                    <h5 className={classes.title}>Design</h5>
+                    <h5 className={classes.title}>Design Tool</h5>
                     <div className={classes.content}> Figma
-                    </div>
-                </div>
-                <br/>
-                <div>
-                    <h5 className={classes.title}>Web</h5>
-                    <div className={classes.content}> Unocss, Tailwind, AlphineJS
                     </div>
                 </div>
                 <br/>
