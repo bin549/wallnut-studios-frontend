@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="feat: add new Content.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/MainNavigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/MainNavigation.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1703631326344" duration="52000" />
       <workItem from="1703631555790" duration="106000" />
       <workItem from="1703646275836" duration="763000" />
-      <workItem from="1703654570861" duration="1291000" />
+      <workItem from="1703654570861" duration="3076000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add my skill panel.">
       <option name="closed" value="true" />

@@ -1,10 +1,14 @@
 .main {
   margin: 2rem auto;
   width: 95%;
+  height: 80vh;
   max-width: 40rem;
-  background-color: #008080;
+  background-color: white;
   color: white;
   padding: 15px;
   font-size: 15px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  scrollbar-width: thin;
+  overflow: auto;
 }

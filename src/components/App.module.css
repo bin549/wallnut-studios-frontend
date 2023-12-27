@@ -13,6 +13,7 @@
 .title {
     display: flex;
     justify-content: center;
+    color: black;
 }
 
 .content {
@@ -21,4 +22,5 @@
     font-size: 12px;
     width: 90%;
     margin: 0 auto;
+    color: black;
 }
