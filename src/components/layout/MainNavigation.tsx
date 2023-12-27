@@ -7,7 +7,7 @@ const MainNavigation = () => {
         <header className={classes.header}>
             <div className={classes.logo}>Wallnut Studios</div>
             <nav className={classes.nav}>
-                <a href={"https://github.com/bin549"}>🐰github-Link</a>
+                <a href={"https://github.com/bin549"}>🐰(24Y)</a>
             </nav>
         </header>
     );
