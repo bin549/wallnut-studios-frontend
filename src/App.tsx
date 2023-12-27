@@ -55,7 +55,7 @@ function App() {
                 <br/>
                 <div>
                     <h5 className={classes.title}>Desktop Framework</h5>
-                    <div className={classes.content}> Qt, .NET
+                    <div className={classes.content}> Qt, .NET, PyQt
                     </div>
                 </div>
                 <br/>
