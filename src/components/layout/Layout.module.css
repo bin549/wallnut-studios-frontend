@@ -1,7 +1,7 @@
 .main {
-  margin: 2rem auto;
-  width: 95%;
+  margin: 1.5rem auto;
   height: 80vh;
+  width: 85%;
   max-width: 40rem;
   background-color: white;
   color: white;
@@ -9,6 +9,4 @@
   font-size: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  scrollbar-width: thin;
-  overflow: auto;
 }

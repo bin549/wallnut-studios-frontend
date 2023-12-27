@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="feat: add new Content.">
+    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="chore: change color pattern.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.module.css" afterDir="false" />
     </list>
@@ -89,7 +91,7 @@
       <workItem from="1703631326344" duration="52000" />
       <workItem from="1703631555790" duration="106000" />
       <workItem from="1703646275836" duration="763000" />
-      <workItem from="1703654570861" duration="3076000" />
+      <workItem from="1703654570861" duration="4092000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add my skill panel.">
       <option name="closed" value="true" />
@@ -115,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703583423517</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chore: change color pattern.">
+      <option name="closed" value="true" />
+      <created>1703662457034</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703662457034</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +147,7 @@
     <MESSAGE value="feat: add my skill panel." />
     <MESSAGE value="feat: add github line." />
     <MESSAGE value="feat: add new Content." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add new Content." />
+    <MESSAGE value="chore: change color pattern." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: change color pattern." />
   </component>
 </project>

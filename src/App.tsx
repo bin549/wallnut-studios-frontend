@@ -6,8 +6,8 @@ import classes from './components/App.module.css';
 function App() {
     return (
         <Layout>
-            <div>
-                <h1 className={classes.header}>My Skill</h1>
+            <h1 className={classes.header}>My Skill</h1>
+            <div className={classes.body}>
                 <div>
                     <h5 className={classes.title}>Programming Language</h5>
                     <div className={classes.content}>
