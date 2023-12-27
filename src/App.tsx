@@ -61,37 +61,31 @@ function App() {
                 </div>
                 <br/>
                 <div>
-                    <h5 className={classes.title}>Instrument</h5>
-                    <div className={classes.content}> Account Guitar, Piano, Elestric Guitar, Ukulele
-                    </div>
-                </div>
-                <br/>
-                <div>
-                    <h5 className={classes.title}>Video</h5>
-                    <div className={classes.content}> Pr, Kdenlive
-                    </div>
-                </div>
-                <br/>
-                <div>
-                    <h5 className={classes.title}>Image</h5>
-                    <div className={classes.content}> Ps, Asprite, Pyxel Pixelorama, Blender
-                    </div>
-                </div>
-                <br/>
-                <div>
-                    <h5 className={classes.title}>DB</h5>
+                    <h5 className={classes.title}>Database</h5>
                     <div className={classes.content}> Postgres, Mysql
                     </div>
                 </div>
                 <br/>
                 <div>
-                    <h5 className={classes.title}>Instrument Software</h5>
+                    <h5 className={classes.title}>Video Software</h5>
+                    <div className={classes.content}> Premiere Pro, Kdenlive
+                    </div>
+                </div>
+                <br/>
+                <div>
+                    <h5 className={classes.title}>Image Software</h5>
+                    <div className={classes.content}> Photoshop, Asprite, Pyxel Pixelorama, Blender
+                    </div>
+                </div>
+                <br/>
+                <div>
+                    <h5 className={classes.title}>Audio Software</h5>
                     <div className={classes.content}> FL Studios, Guitar Pro, Audacity
                     </div>
                 </div>
                 <br/>
                 <div>
-                    <h5 className={classes.title}>Tool</h5>
+                    <h5 className={classes.title}>Dev Tool</h5>
                     <div className={classes.content}> Docker, Jenkins, GraphQL
                     </div>
                 </div>
@@ -115,14 +109,32 @@ function App() {
                 </div>
                 <br/>
                 <div>
-                    <h5 className={classes.title}>Web Crawler</h5>
-                    <div className={classes.content}> Scrapy, Selenium, Requests
+                    <h5 className={classes.title}>Test Framework</h5>
+                    <div className={classes.content}> Selenium
+                    </div>
+                </div>
+                <br/>
+                <div>
+                    <h5 className={classes.title}>Network Framework</h5>
+                    <div className={classes.content}> Requests
+                    </div>
+                </div>
+                <br/>
+                <div>
+                    <h5 className={classes.title}>Crawler Technique</h5>
+                    <div className={classes.content}> Scrapy, Urllib, XPath
+                    </div>
+                </div>
+                <br/>
+                <div>
+                    <h5 className={classes.title}>Instrument</h5>
+                    <div className={classes.content}> Account Guitar, Piano, Elestric Guitar, Ukulele
                     </div>
                 </div>
                 <br/>
                 <div>
                     <h5 className={classes.title}>Things I like</h5>
-                    <div className={classes.content}> Game, Book, Movie, Music
+                    <div className={classes.content}> Game, Music, Book, Movie, Anim
                     </div>
                 </div>
                 <br/>
