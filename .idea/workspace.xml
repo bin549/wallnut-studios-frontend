@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="chore: modify content." />
+    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="chore: modify content.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewTodo.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewTodo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoItem.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Todos.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Todos.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/api.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +98,9 @@
       <workItem from="1703654570861" duration="4548000" />
       <workItem from="1703664887535" duration="11000" />
       <workItem from="1703667644291" duration="324000" />
+      <workItem from="1704003396478" duration="13000" />
+      <workItem from="1704346765271" duration="8000" />
+      <workItem from="1704346796872" duration="3152000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add my skill panel.">
       <option name="closed" value="true" />
