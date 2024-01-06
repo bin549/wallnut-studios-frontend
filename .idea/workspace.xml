@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="chore: modify content.">
+    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="chore: dynamic data &amp; remove useless files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewTodo.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewTodo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoItem.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Todos.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Todos.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/MainNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/MainNavigation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +96,10 @@
       <workItem from="1703667644291" duration="324000" />
       <workItem from="1704003396478" duration="13000" />
       <workItem from="1704346765271" duration="8000" />
-      <workItem from="1704346796872" duration="3152000" />
+      <workItem from="1704346796872" duration="3423000" />
+      <workItem from="1704430939562" duration="1064000" />
+      <workItem from="1704432201758" duration="6000" />
+      <workItem from="1704492834599" duration="6396000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add my skill panel.">
       <option name="closed" value="true" />
@@ -150,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703667954614</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="chore: dynamic data &amp; remove useless files.">
+      <option name="closed" value="true" />
+      <created>1704354382669</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704354382669</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +182,7 @@
     <MESSAGE value="chore: change color pattern." />
     <MESSAGE value="chore: change scroller" />
     <MESSAGE value="chore: modify content." />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: modify content." />
+    <MESSAGE value="chore: dynamic data &amp; remove useless files." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: dynamic data &amp; remove useless files." />
   </component>
 </project>

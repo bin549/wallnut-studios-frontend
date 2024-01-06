@@ -1,13 +1,23 @@
-
-export async function getAllQuotes() {
-	const response = await fetch('http://127.0.0.1:5000/api/orders/orders/', {
-      method: 'GET',
-      mode: "cors",
-      headers: {
-        'Content-Type': 'application/json'
-      }
+export async function getSkillByPage() {
+    const response = await fetch('http://127.0.0.1:8000/api/skill/list/', {
+        method: 'GET',
+        mode: "cors",
+        headers: {
+            'Content-Type': 'application/json'
+        }
     })
     const data = await response.json();
-    console.log(data);
     return data;
 }
+
+export async function getProfileById() {
+    const response = await fetch('http://127.0.0.1:8000/api/profile/get', {
+        method: 'GET',
+        mode: "cors",
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    return await response.json()
+}
+
