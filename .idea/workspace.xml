@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="chore: fetch profile data and remove useless code.">
+    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="chore: refactor skill page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skill.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/MainNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/MainNavigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -57,6 +58,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -100,7 +106,7 @@
       <workItem from="1704430939562" duration="1064000" />
       <workItem from="1704432201758" duration="6000" />
       <workItem from="1704492834599" duration="10809000" />
-      <workItem from="1705122784313" duration="2180000" />
+      <workItem from="1705122784313" duration="4100000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add my skill panel.">
       <option name="closed" value="true" />
@@ -166,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704517153100</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="chore: refactor skill page.">
+      <option name="closed" value="true" />
+      <created>1705127000456</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705127000456</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +207,7 @@
     <MESSAGE value="chore: modify content." />
     <MESSAGE value="chore: dynamic data &amp; remove useless files." />
     <MESSAGE value="chore: fetch profile data and remove useless code." />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: fetch profile data and remove useless code." />
+    <MESSAGE value="chore: refactor skill page." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: refactor skill page." />
   </component>
 </project>

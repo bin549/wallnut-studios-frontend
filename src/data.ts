@@ -1,5 +1,10 @@
+import componentsImg from './assets/components.png';
+import propsImg from './assets/config.png';
+import jsxImg from './assets/jsx-ui.png';
+import stateImg from './assets/state-mgmt.png';
 
-export var skill_sets = [
+
+export const SKELLs = [
     {
         tag: "Programming Language",
         skills: [
@@ -151,5 +156,33 @@ export var skill_sets = [
         skills: [
             "LWBZ"
         ]
+    },
+]
+
+
+export const SUBMODULES = [
+    {
+        image: componentsImg,
+        title: '游戏区',
+        description:
+            '快来玩我制作的游戏.',
+    },
+    {
+        image: jsxImg,
+        title: '工具区',
+        description:
+            '编程是为了改变世界.',
+    },
+    {
+        image: propsImg,
+        title: '音乐区',
+        description:
+            '音乐是我的生命.',
+    },
+    {
+        image: stateImg,
+        title: '写作区',
+        description:
+            '写点有意思的.',
     },
 ]

@@ -1,0 +1,10 @@
+.layout {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    width: 10vh;
+}
+
+.layout img {
+    width: 18vh;
+}
