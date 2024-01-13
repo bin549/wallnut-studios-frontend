@@ -1,26 +1,22 @@
-import {NavLink} from 'react-router-dom';
-
 import classes from './MainNavigation.module.css';
-import useHttp from "../../hooks/use-http"
-import {getProfileById} from '../../lib/api';
-import {useEffect} from "react"
+import {useState, useEffect} from "react"
+
 
 const MainNavigation = () => {
-    const {sendRequest} =  useHttp((
-        getProfileById(),
-            true
-    ))
-
-    useEffect(() => {
-        sendRequest()
-    }, [sendRequest])
-
+    const [age, setAge] = useState("25")
+    useEffect( () => {
+        // async function fetchProfile() {
+        //     const data = await getProfileById()
+        //     return data
+        // }
+        // fetchProfile()
+    }, [])
 
     return (
         <header className={classes.header}>
             <div className={classes.logo}>Wallnut Studios</div>
             <nav className={classes.nav}>
-                <a href={"https://github.com/bin549"}>🐰(24Y)</a>
+                <a href={"https://github.com/bin549"}>🐰({age})</a>
             </nav>
         </header>
     );

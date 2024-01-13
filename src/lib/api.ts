@@ -20,4 +20,3 @@ export async function getProfileById() {
     })
     return await response.json()
 }
-
