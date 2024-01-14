@@ -17,6 +17,7 @@ const MainNavigation = () => {
             <div className={classes.logo}>Wallnut Studios</div>
             <nav className={classes.nav}>
                 <a href={"https://github.com/bin549"}>🐰({age}Y)</a>
+                <span>登录</span>
             </nav>
         </header>
     );

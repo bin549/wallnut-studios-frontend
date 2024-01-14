@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import Todo from '../models/todo';
+import Skill from '../models/skill';
 
 type TodosContextObj = {
-  items: Todo[];
+  items: Skill[];
   addTodo: (text: string) => void;
   removeTodo: (id: string) => void;
 };
@@ -15,10 +15,10 @@ export const TodosContext = React.createContext<TodosContextObj>({
 });
 
 const TodosContextProvider: React.FC = (props) => {
-  const [todos, setTodos] = useState<Todo[]>([]);
+  const [todos, setTodos] = useState<Skill[]>([]);
 
   const addTodoHandler = (todoText: string) => {
-    const newTodo = new Todo(todoText);
+    const newTodo = new Skill(todoText);
     setTodos((prevTodos) => {
       return prevTodos.concat(newTodo);
     });
