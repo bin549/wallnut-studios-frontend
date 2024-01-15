@@ -1,8 +1,8 @@
-import classes from './MainNavigation.module.css';
+import classes from './Navigation.module.css';
 import {useState, useEffect} from "react"
 
 
-const MainNavigation = () => {
+const Navigation = () => {
     const [age, setAge] = useState("25")
     useEffect( () => {
         // async function fetchProfile() {
@@ -16,11 +16,14 @@ const MainNavigation = () => {
         <header className={classes.header}>
             <div className={classes.logo}>Wallnut Studios</div>
             <nav className={classes.nav}>
-                <a href={"https://github.com/bin549"}>🐰({age}Y)</a>
-                <span>登录</span>
+                <span>🇨🇳</span>
+                <span>🌕</span>
+                <span>🐰({age}Y)</span>
+                <a href={"https://github.com/bin549"}>⚐</a>
+                <span>⌖</span>
             </nav>
         </header>
-    );
-};
+    )
+}
 
-export default MainNavigation;
+export default Navigation

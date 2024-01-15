@@ -17,7 +17,7 @@
     width: 18vh;
 }
 
-.submodule_item {
+.module_item {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     height: 320px;
     width: 13rem;
@@ -25,28 +25,28 @@
     overflow: hidden;
 }
 
-.submodule_item .submodule_item_header {
+.module_item .module_item_header {
     height: 50%;
     width: 100%;
     background-color: #7fd6f9;
 }
 
-.submodule_item .submodule_item_header img{
+.module_item .module_item_header img{
     object-fit: cover;
 }
 
-.submodule_item:hover {
+.module_item:hover {
     cursor: pointer;
 }
 
-.submodule_item .submodule_item_body h4{
+.module_item .module_item_body h4{
     justify-content: center;
     align-content: center;
     flex-direction: row;
     display: flex;
 }
 
-.submodule_item .submodule_item_body span{
+.module_item .module_item_body span{
     display: flex;
     justify-content: center;
 }

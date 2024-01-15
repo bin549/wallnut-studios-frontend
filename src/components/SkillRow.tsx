@@ -1,6 +1,6 @@
-import classes from "./App.module.css";
+import classes from "./SkillRow.module.css";
 
-export function SkillRow(props: any) {
+const SkillRow = (props: any) => {
     return(
         <div>
             <h5 className={classes.title}>{props.tag}</h5>
@@ -11,3 +11,5 @@ export function SkillRow(props: any) {
         </div>
     )
 }
+
+export default SkillRow

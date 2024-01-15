@@ -1,7 +1,7 @@
 import {Fragment} from 'react';
 import React from 'react'
 import classes from './Layout.module.css';
-import MainNavigation from './MainNavigation';
+import Navigation from './Navigation';
 
 
 const Layout = (props: any) => {
@@ -16,7 +16,7 @@ const Layout = (props: any) => {
 
     return (
         <Fragment>
-            <MainNavigation/>
+            <Navigation/>
             <main className={classes.main}>{props.children}</main>
         </Fragment>
     );

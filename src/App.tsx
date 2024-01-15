@@ -1,13 +1,13 @@
-import Layout from './components/layout/Layout';
+import Layout from './layout/Layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Submodule} from "./components/Submodule";
-import {Skill} from "./components/Skill";
+import SubModule from "./pages/SubModule";
+import Skill from "./pages/Skill";
 
 function App() {
     return (
         <>
             <Layout>
-                <Submodule/>
+                <SubModule/>
                 {/*<Skill/>*/}
             </Layout>
         </>

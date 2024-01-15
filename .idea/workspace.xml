@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="feat: style component.">
+    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="chore: remark first page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Submodule.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Submodule.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Submodule.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Submodule.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/MainNavigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/MainNavigation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SkillRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillRow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Submodule.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModule.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Submodule.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModule.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/MainNavigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/MainNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Navigation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,26 +45,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Shared/1_work/wallnut-studios-frontend&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/Shared/1_work/wallnut-studios-frontend/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/Shared/1_work/wallnut-studios-frontend/src/components",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/Shared/1_work/wallnut-studios-frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/pages/Modules" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/pages/Submodule" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
@@ -108,7 +121,7 @@
       <workItem from="1704492834599" duration="10809000" />
       <workItem from="1705122784313" duration="4939000" />
       <workItem from="1705248642614" duration="1757000" />
-      <workItem from="1705281764340" duration="5143000" />
+      <workItem from="1705281764340" duration="7784000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add my skill panel.">
       <option name="closed" value="true" />
@@ -198,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705249794031</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="chore: remark first page.">
+      <option name="closed" value="true" />
+      <created>1705298991761</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1705298991761</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +249,7 @@
     <MESSAGE value="chore: refactor skill page." />
     <MESSAGE value="feat: rewrite the index page." />
     <MESSAGE value="feat: style component." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: style component." />
+    <MESSAGE value="chore: remark first page." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: remark first page." />
   </component>
 </project>

@@ -1,0 +1,25 @@
+.layout {
+    background-color: white;
+    justify-content: center;
+    align-content: center;
+}
+
+.header {
+    background-color: #7fd6f9;
+    width: 80%;
+    padding: 15px;
+    margin: 0;
+    margin-bottom: 15px;
+    display: flex;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.body {
+    width: 80%;
+    height: 65vh;
+    scrollbar-width: thin;
+    overflow: auto;
+    color: black;
+}

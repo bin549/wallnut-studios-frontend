@@ -1,17 +1,16 @@
 import {SUBMODULES} from "../data";
-import classes from "./Submodule.module.css";
-import Layout from "./layout/Layout";
+import classes from "./SubModule.module.css";
 
-export function Submodule() {
+const SubModule = () => {
     return (
         <div className={classes.layout}>
             {
                 SUBMODULES.map((module: any) => (
-                    <div className={classes.submodule_item}>
-                        <div className={classes.submodule_item_header}>
+                    <div className={classes.module_item}>
+                        <div className={classes.module_item_header}>
                             <img src={module.image}/>
                         </div>
-                        <div className={classes.submodule_item_body}>
+                        <div className={classes.module_item_body}>
                             <h4>{module.title}</h4>
                             <span>
                             {module.description}
@@ -23,3 +22,4 @@ export function Submodule() {
         </div>
     )
 }
+export default SubModule
