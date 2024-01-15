@@ -7,14 +7,13 @@ const SubModule = () => {
         <div className={classes.layout}>
             {
                 SUBMODULES.map((module, index) => (
-                        <Link
-                            to={module.link}
+                        <div
                             className={`${classes.module_item} ${index % 2 === 0 ? classes.module_item_reverse : ''}`}
                             key={index}
                         >
-                            <div className={classes.module_item_header}>
+                            <Link to={module.link} className={classes.module_item_header}>
                                 <img src={module.image}/>
-                            </div>
+                            </Link>
                             <div
                                 className={`${classes.module_item_body} ${index % 2 !== 0 ? classes.module_item_body_reverse : ''}`}
                                 key={index}
@@ -24,7 +23,7 @@ const SubModule = () => {
                             {module.description}
                             </span>
                             </div>
-                        </Link>
+                        </div>
                     )
                 )
             }
