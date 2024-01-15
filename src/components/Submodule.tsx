@@ -7,11 +7,11 @@ export function Submodule() {
         <div className={classes.layout}>
             {
                 SUBMODULES.map((module: any) => (
-                    <div className={classes.item}>
-                        <div>
+                    <div className={classes.submodule_item}>
+                        <div className={classes.submodule_item_header}>
                             <img src={module.image}/>
                         </div>
-                        <div>
+                        <div className={classes.submodule_item_body}>
                             <h4>{module.title}</h4>
                             <span>
                             {module.description}
