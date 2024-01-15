@@ -17,7 +17,7 @@ const Navigation = ({ onProfileCheck }) => {
             <div className={classes.logo} onClick={onProfileCheck}>
                 <span>🐰({age}Y)</span>
                 <h3>
-                    我是谁
+                    切换页面
                 </h3>
             </div>
             <nav className={classes.nav}>

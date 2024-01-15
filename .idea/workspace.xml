@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="chore: beautify first page.">
+    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="feat: rewrite index.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Navigation.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SubModule.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModule.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SubModule.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModule.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Skill.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +116,7 @@
       <workItem from="1705122784313" duration="4939000" />
       <workItem from="1705248642614" duration="1757000" />
       <workItem from="1705281764340" duration="9817000" />
-      <workItem from="1705306023804" duration="5635000" />
+      <workItem from="1705306023804" duration="6022000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add my skill panel.">
       <option name="closed" value="true" />
@@ -258,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705308467689</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: rewrite index.">
+      <option name="closed" value="true" />
+      <created>1705311705867</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1705311705867</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,6 +296,7 @@
     <MESSAGE value="feat: project struction." />
     <MESSAGE value="chore: justify ui." />
     <MESSAGE value="chore: beautify first page." />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: beautify first page." />
+    <MESSAGE value="feat: rewrite index." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: rewrite index." />
   </component>
 </project>

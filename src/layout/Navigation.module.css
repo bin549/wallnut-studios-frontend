@@ -11,8 +11,11 @@
 .logo {
   display: flex;
   flex-direction: row;
-  color: white;
   row-gap: 18px;
+  background-color: #7fd6f9;
+  color: white;
+  border-radius: 5px;
+  width: 9rem;
 }
 
 .logo:hover {
