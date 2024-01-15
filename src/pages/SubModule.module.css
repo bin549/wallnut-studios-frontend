@@ -20,11 +20,25 @@
 }
 
 .module_item {
+    margin-bottom: 80px;
     height: 280px;
-    width: 16rem;
+    width: 13rem;
     text-align: center;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+}
+
+.module_item_reverse {
+    margin-bottom: 80px;
+    height: 280px;
+    width: 13rem;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
 }
 
 .module_item .module_item_header {
@@ -33,7 +47,17 @@
     background-color: #7fd6f9;
 }
 
-.module_item .module_item_header img{
+.module_item_reverse .module_item_header {
+    height: 50%;
+    width: 100%;
+    background-color: #7fd6f9;
+}
+
+.module_item .module_item_header img {
+    object-fit: cover;
+}
+
+.module_item_reverse .module_item_header img {
     object-fit: cover;
 }
 
@@ -41,15 +65,71 @@
     cursor: pointer;
 }
 
-.module_item .module_item_body h4{
+.module_item_reverse:hover {
+    cursor: pointer;
+}
+
+.module_item .module_item_body h4 {
     justify-content: center;
     align-content: center;
     flex-direction: row;
     display: flex;
 }
 
-.module_item .module_item_body span{
+
+.module_item_reverse .module_item_body h4 {
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.module_item .module_item_body span {
     display: flex;
     justify-content: center;
 }
 
+.module_item_reverse .module_item_body span {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1400px) {
+    .module_item {
+        margin-bottom: 0px;
+        width: 16rem;
+    }
+    .module_item_reverse {
+        margin-bottom: 0px;
+        width: 16rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .layout {
+        padding: 0rem;
+        gap: 0rem;
+    }
+
+    .module_item {
+        height: 25%;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .module_item .module_item_header {
+        height: 100%;
+        width: 50%;
+    }
+
+    .module_item_reverse {
+        height: 25%;
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+
+    .module_item_reverse .module_item_header {
+        height: 100%;
+        width: 50%;
+    }
+}

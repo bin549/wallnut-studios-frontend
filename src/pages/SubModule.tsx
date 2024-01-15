@@ -5,8 +5,8 @@ const SubModule = () => {
     return (
         <div className={classes.layout}>
             {
-                SUBMODULES.map((module: any) => (
-                    <div className={classes.module_item}>
+                SUBMODULES.map((module, index) => (
+                    <div className={index % 2 === 0 ? classes.module_item : classes.module_item_reverse}>
                         <div className={classes.module_item_header}>
                             <img src={module.image}/>
                         </div>
