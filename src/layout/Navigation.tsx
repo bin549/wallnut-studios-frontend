@@ -1,5 +1,6 @@
 import classes from './Navigation.module.css';
 import {useState, useEffect} from "react"
+import {Link} from "react-router-dom"
 
 // @ts-ignore
 const Navigation = ({ onProfileCheck }) => {
@@ -12,13 +13,17 @@ const Navigation = ({ onProfileCheck }) => {
         // fetchProfile()
     }, [])
 
+
     return (
         <header className={classes.header}>
-            <div className={classes.logo} onClick={onProfileCheck}>
-                <span>🐰({age}Y)</span>
-                <h3>
-                    切换页面
-                </h3>
+            <Link to="/" className={classes.logo}>
+                <span>
+                    🌰
+                    Wallnut-Studios
+                </span>
+            </Link>
+            <div className={classes.logo}>
+                <span onClick={onProfileCheck}>🐰({age}Y)切换视图</span>
             </div>
             <nav className={classes.nav}>
                 <span>🇨🇳</span>

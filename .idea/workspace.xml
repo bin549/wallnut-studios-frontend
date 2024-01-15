@@ -6,9 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="feat: rewrite index.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Skill.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SubModule.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModule.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SubModule.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModule.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SubModules/ArticleList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModules/ArticleList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SubModules/GameList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModules/GameList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SubModules/ToolList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModules/ToolList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SubModules/VideoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModules/VideoList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +80,17 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -84,6 +104,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +137,8 @@
       <workItem from="1705122784313" duration="4939000" />
       <workItem from="1705248642614" duration="1757000" />
       <workItem from="1705281764340" duration="9817000" />
-      <workItem from="1705306023804" duration="6022000" />
+      <workItem from="1705306023804" duration="9845000" />
+      <workItem from="1705321892074" duration="1607000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add my skill panel.">
       <option name="closed" value="true" />
@@ -262,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705311705867</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat: rewrite index.">
+      <option name="closed" value="true" />
+      <created>1705312063289</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705312063289</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

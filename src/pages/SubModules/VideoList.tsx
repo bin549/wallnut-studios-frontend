@@ -1,12 +1,14 @@
 import classes from "./VideoList.module.css";
+import Layout from "../../layout/Layout";
 
 const VideoList = () => {
+    function toggleIsCheck() {
+    }
+
     return (
-        <>
-            <h1>
-                video
-            </h1>
-        </>
+        <Layout onProfileCheck={toggleIsCheck}>
+            <h1>Video</h1>
+        </Layout>
     )
 }
 

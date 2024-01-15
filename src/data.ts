@@ -166,23 +166,27 @@ export const SUBMODULES = [
         title: '游戏区',
         description:
             '快来玩我制作的游戏.',
+        link: "/game"
     },
     {
         image: toolImg,
         title: '工具区',
         description:
             '编程是为了改变世界.',
+        link: "/tool"
     },
     {
         image: musicImg,
         title: '音乐区',
         description:
             '音乐是我的生命.',
+        link: "/video"
     },
     {
         image: writeImg,
         title: '写作区',
         description:
             '写点有意思的.',
+        link: "/article"
     },
 ]

@@ -1,24 +1,28 @@
-import Layout from './layout/Layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SubModule from "./pages/SubModule";
-import Skill from "./pages/Skill";
-import {useState} from "react"
+
+import {
+    createBrowserRouter,
+    createRoutesFromElements,
+    Route,
+    RouterProvider
+} from 'react-router-dom'
+import Home from "./pages/Home";
+import GameList from "./pages/SubModules/GameList";
+import ToolList from "./pages/SubModules/ToolList";
+import VideoList from "./pages/SubModules/VideoList";
+import ArticleList from "./pages/SubModules/ArticleList";
+
+
+const router = createBrowserRouter([
+    {path: '/', element: <Home/>},
+    {path: '/game', element: <GameList/>},
+    {path: '/tool', element: <ToolList/>},
+    {path: '/video', element: <VideoList/>},
+    {path: '/article', element: <ArticleList/>},
+])
 
 function App() {
-    const [isCheck, setIsCheck] = useState(false)
-
-    function toggleIsCheck() {
-        setIsCheck(!isCheck)
-    }
-
-    return (
-        <>
-            <Layout onProfileCheck={toggleIsCheck} >
-                {!isCheck && <SubModule />}
-                {isCheck && <Skill />}
-            </Layout>
-        </>
-    );
+    return <RouterProvider router={router}/>
 }
 
 export default App;

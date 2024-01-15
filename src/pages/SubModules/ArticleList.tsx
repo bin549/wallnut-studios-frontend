@@ -1,12 +1,15 @@
-import classes from "./Article.module.css";
+import Layout from "../../layout/Layout";
 
 const ArticleList = () => {
+    function toggleIsCheck() {
+    }
+
     return (
-        <>
-            <h1>
-                article
-            </h1>
-        </>
+        <Layout onProfileCheck={toggleIsCheck}>
+            <h1>article</h1>
+            <h1>article</h1>
+            <h1>article</h1>
+        </Layout>
     )
 }
 
