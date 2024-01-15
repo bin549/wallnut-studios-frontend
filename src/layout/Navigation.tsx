@@ -1,7 +1,8 @@
 import classes from './Navigation.module.css';
 import {useState, useEffect} from "react"
 
-const Navigation = () => {
+// @ts-ignore
+const Navigation = ({ onProfileCheck }) => {
     const [age, setAge] = useState("25")
     useEffect( () => {
         // async function fetchProfile() {
@@ -13,10 +14,10 @@ const Navigation = () => {
 
     return (
         <header className={classes.header}>
-            <div className={classes.logo}>
+            <div className={classes.logo} onClick={onProfileCheck}>
                 <span>🐰({age}Y)</span>
                 <h3>
-                    Wallnut Studios
+                    我是谁
                 </h3>
             </div>
             <nav className={classes.nav}>

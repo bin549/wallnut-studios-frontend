@@ -1,7 +1,7 @@
-import componentsImg from './assets/components.png';
-import propsImg from './assets/config.png';
-import jsxImg from './assets/jsx-ui.png';
-import stateImg from './assets/state-mgmt.png';
+import gameImg from './assets/video-game.png';
+import musicImg from './assets/digital-content.png';
+import toolImg from './assets/multitasking-desk-1.png';
+import writeImg from './assets/work-night-1.png';
 
 
 export const SKELLs = [
@@ -162,25 +162,25 @@ export const SKELLs = [
 
 export const SUBMODULES = [
     {
-        image: componentsImg,
+        image: gameImg,
         title: '游戏区',
         description:
             '快来玩我制作的游戏.',
     },
     {
-        image: jsxImg,
+        image: toolImg,
         title: '工具区',
         description:
             '编程是为了改变世界.',
     },
     {
-        image: propsImg,
+        image: musicImg,
         title: '音乐区',
         description:
             '音乐是我的生命.',
     },
     {
-        image: stateImg,
+        image: writeImg,
         title: '写作区',
         description:
             '写点有意思的.',

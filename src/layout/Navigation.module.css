@@ -15,6 +15,11 @@
   row-gap: 18px;
 }
 
+.logo:hover {
+  cursor: pointer;
+  color: black;
+}
+
 .logo h3{
   font-size: 1.2rem;
 }
