@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="chore: remark first page.">
+    <list default="true" id="3ae925c0-5f64-4a98-86ae-f6561bed6919" name="Changes" comment="feat: project struction.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Skill.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SkillRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillRow.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Submodule.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModule.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Submodule.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModule.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/MainNavigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Navigation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/MainNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Skill.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SubModule.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SubModule.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +113,7 @@
       <workItem from="1704492834599" duration="10809000" />
       <workItem from="1705122784313" duration="4939000" />
       <workItem from="1705248642614" duration="1757000" />
-      <workItem from="1705281764340" duration="7784000" />
+      <workItem from="1705281764340" duration="8575000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add my skill panel.">
       <option name="closed" value="true" />
@@ -219,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705298991761</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: project struction.">
+      <option name="closed" value="true" />
+      <created>1705301979976</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705301979976</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +250,7 @@
     <MESSAGE value="feat: rewrite the index page." />
     <MESSAGE value="feat: style component." />
     <MESSAGE value="chore: remark first page." />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: remark first page." />
+    <MESSAGE value="feat: project struction." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: project struction." />
   </component>
 </project>

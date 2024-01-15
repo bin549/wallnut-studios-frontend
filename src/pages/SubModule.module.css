@@ -11,6 +11,8 @@
     border-radius: 6px;
     gap: 2rem;
     flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
 }
 
 .layout img {
@@ -18,11 +20,11 @@
 }
 
 .module_item {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
-    height: 320px;
-    width: 13rem;
+    height: 280px;
+    width: 16rem;
     text-align: center;
     overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .module_item .module_item_header {
