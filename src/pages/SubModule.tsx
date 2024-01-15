@@ -17,7 +17,7 @@ const SubModule = () => {
                             </span>
                         </div>
                     </div>
-                ))
+                )
             }
         </div>
     )
