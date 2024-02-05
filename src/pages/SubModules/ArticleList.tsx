@@ -7,8 +7,6 @@ const ArticleList = () => {
     return (
         <Layout onProfileCheck={toggleIsCheck}>
             <h1>article</h1>
-            <h1>article</h1>
-            <h1>article</h1>
         </Layout>
     )
 }
