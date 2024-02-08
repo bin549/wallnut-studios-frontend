@@ -12,7 +12,7 @@ const Skill = () => {
             credentials: "include",
         }
         const skill_temp: any[] = []
-        fetch(`http://127.0.0.1:5000/api/skill/list`, requestOptions)
+        fetch(`http://39.108.13.241:5000/api/skill/list`, requestOptions)
             .then((res: any) =>
                 res.json()
             )
