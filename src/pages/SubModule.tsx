@@ -1,6 +1,6 @@
 import {SUBMODULES} from "../data";
 import classes from "./SubModule.module.css";
-import {Link } from "react-router-dom"
+import {Link} from "react-router-dom"
 
 const SubModule = () => {
     return (

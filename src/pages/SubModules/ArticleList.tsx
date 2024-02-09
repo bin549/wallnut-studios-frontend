@@ -1,4 +1,5 @@
 import Layout from "../../layout/Layout";
+import {Link} from "react-router-dom"
 
 const ArticleList = () => {
     function toggleIsCheck() {
@@ -6,7 +7,7 @@ const ArticleList = () => {
 
     return (
         <Layout onProfileCheck={toggleIsCheck}>
-            <h1>article</h1>
+            <Link to={"/"}>article</Link>
         </Layout>
     )
 }

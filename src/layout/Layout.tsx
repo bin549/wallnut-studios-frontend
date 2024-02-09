@@ -10,8 +10,8 @@ const Layout = (props: any) => {
     //     getSkillByPage,
     //     true
     // )
-    function onProfileCheck() {
-        props.onProfileCheck()
+    function onModuleChanged(module_num: number) {
+        props.onModuleChanged(module_num)
     }
 
     // useEffect(() => {
@@ -20,7 +20,7 @@ const Layout = (props: any) => {
 
     return (
         <Fragment>
-            <Navigation onProfileCheck={onProfileCheck}/>
+            <Navigation onModuleChanged={onModuleChanged}/>
             <main className={classes.main}>{props.children}</main>
         </Fragment>
     );

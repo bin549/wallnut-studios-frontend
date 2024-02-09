@@ -1,5 +1,5 @@
-import classes from "./ToolList.module.css";
 import Layout from "../../layout/Layout";
+import {Link} from "react-router-dom"
 
 const ToolList = () => {
     function toggleIsCheck() {
@@ -7,7 +7,7 @@ const ToolList = () => {
 
     return (
         <Layout onProfileCheck={toggleIsCheck}>
-            <h1>Tool</h1>
+            <Link to={"/"}>Tool</Link>
         </Layout>
     )
 }

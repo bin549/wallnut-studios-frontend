@@ -1,15 +1,18 @@
 import classes from "./GameItem.module.css";
-import gameImg from '../../assets/screen.jpg';
-import {Link} from "react-router-dom"
 
-const GameItem = () => {
+const GameItem = (props: any) => {
+    function checkGame() {
+        window.open(
+            props.link,
+            "_blank"
+        )
+    }
+
     return (
         <>
             <div className={classes.game_item}>
-                <Link to={"https://baidu.com"}>
-                    <img alt={"untitle"} src={gameImg}/>
-                </Link>
-                <h4>赛博射手</h4>
+                <img onClick={checkGame} alt={"untitle"} src={props.cover}/>
+                <h4>{props.name}</h4>
             </div>
         </>
     )

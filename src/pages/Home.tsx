@@ -2,18 +2,20 @@ import {useState} from "react"
 import Layout from "../layout/Layout";
 import SubModule from "./SubModule";
 import Skill from "./Skill";
+import AboutMe from "./AboutMe";
 
 const Home = () => {
-    const [isCheck, setIsCheck] = useState(false)
+    const [moduleNum, setModuleNum] = useState(0)
 
-    function toggleIsCheck() {
-        setIsCheck(!isCheck)
+    function changeModuleNum(page_num: number) {
+        setModuleNum(page_num)
     }
 
     return (
-        <Layout onProfileCheck={toggleIsCheck}>
-            {!isCheck && <SubModule/>}
-            {isCheck && <Skill/>}
+        <Layout onModuleChanged={changeModuleNum}>
+            {moduleNum===0 && <SubModule/>}
+            {moduleNum===1 && <Skill/>}
+            {moduleNum===2 && <AboutMe/>}
         </Layout>
     )
 }

@@ -1,7 +1,7 @@
 import classes from "./SkillRow.module.css";
 
 const SkillRow = (props: any) => {
-    return(
+    return (
         <div>
             <h5 className={classes.title}>{props.tag}</h5>
             <div className={classes.content}>

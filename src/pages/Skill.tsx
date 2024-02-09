@@ -1,15 +1,16 @@
 import classes from "./Skill.module.css";
 import SkillRow from "../components/SkillRow";
 import {useEffect, useState} from "react"
+import skill from "../models/skill";
 
 const Skill = () => {
     const [skills, setSkills] = useState([])
 
-    useEffect(() => {
+    function fetchData() {
         const requestOptions: any = {
             method: "GET",
             credentials: "include",
-            }
+        }
         const skill_temp: any[] = []
         fetch(`${process.env.REACT_APP_BACKEND}/api/skill/list`, requestOptions)
             .then((res: any) =>
@@ -19,13 +20,15 @@ const Skill = () => {
                 Array.from(new Set(data.map((skill: any) => skill.tag))).forEach(skill_tag => {
                     skill_temp.push({
                         tag: skill_tag,
-                        skills:Array.from(data.filter((skill:any) => skill.tag === skill_tag).map((skill:any) => skill.name))
+                        skills: Array.from(data.filter((skill: any) => skill.tag === skill_tag).map((skill: any) => skill.name))
                     })
                 })
                 // @ts-ignore
                 setSkills(skill_temp)
             })
-    })
+    }
+
+    fetchData()
 
     return (
         <>

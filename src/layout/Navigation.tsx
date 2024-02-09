@@ -1,11 +1,13 @@
 import classes from './Navigation.module.css';
 import {useState, useEffect} from "react"
-import {Link} from "react-router-dom"
 
 // @ts-ignore
-const Navigation = ({ onProfileCheck }) => {
+const Navigation = ({onModuleChanged}) => {
     const [age, setAge] = useState("25")
-    useEffect( () => {
+    const [isSkillView, setIsSkillView] = useState(false)
+    const [isAboutMeViewed, setIsAboutMeViewed] = useState(false)
+
+    useEffect(() => {
         // async function fetchProfile() {
         //     const data = await getProfileById()
         //     return data
@@ -13,22 +15,39 @@ const Navigation = ({ onProfileCheck }) => {
         // fetchProfile()
     }, [])
 
+    function changeView() {
+        setIsSkillView(!isSkillView)
+        onModuleChanged(isSkillView ? 0 : 1)
+    }
+
+    function changeView2() {
+        setIsAboutMeViewed(!isAboutMeViewed)
+        onModuleChanged(isAboutMeViewed ? 0 : 2)
+    }
+
+    function checkGithub() {
+        window.open(
+            "https://github.com/bin549",
+            "_blank"
+        )
+    }
 
     return (
         <header className={classes.header}>
-            <Link to="/" className={classes.logo}>
+            <div className={classes.logo}>
                 <span>
                     🌰
                     Wallnut-Studios
                 </span>
-            </Link>
+            </div>
+            <span onClick={changeView2}>{isAboutMeViewed ? "🪦返回" : "🐰关于我"}</span>
             <div className={classes.logo}>
-                <span onClick={onProfileCheck}>🐰({age}Y)切换视图</span>
+                <span onClick={changeView}>{isSkillView ? "📓我的作品" : "🛠️我的技术"}</span>
             </div>
             <nav className={classes.nav}>
                 <span>🇨🇳</span>
                 <span>🌕</span>
-                <a href={"https://github.com/bin549"}>⚐</a>
+                <span onClick={checkGithub}>⚐</span>
                 <span>⌖</span>
             </nav>
         </header>
