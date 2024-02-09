@@ -1,15 +1,21 @@
 .game_item {
     background-color: #267290;
     width: 25%;
-    border-radius: 20px;
+    border-radius: 13px;
+    height: 130px;
+    margin-right: 20px;
 }
 
 .game_item img{
     width: 100%;
+    height: 80%;
+    border-radius: 13px;
 }
 
 .game_item h4{
     color: white;
+    height: 20%;
+    font-size: 12px;
 }
 
 .game_item:hover {
