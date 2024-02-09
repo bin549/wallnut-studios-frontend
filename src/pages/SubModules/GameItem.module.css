@@ -1,0 +1,17 @@
+.game_item {
+    background-color: #267290;
+    width: 25%;
+    border-radius: 20px;
+}
+
+.game_item img{
+    width: 100%;
+}
+
+.game_item h4{
+    color: white;
+}
+
+.game_item:hover {
+    cursor: pointer;
+}

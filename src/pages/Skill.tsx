@@ -1,5 +1,4 @@
 import classes from "./Skill.module.css";
-import {SKELLs} from "../data";
 import SkillRow from "../components/SkillRow";
 import {useEffect, useState} from "react"
 
@@ -10,9 +9,9 @@ const Skill = () => {
         const requestOptions: any = {
             method: "GET",
             credentials: "include",
-        }
+            }
         const skill_temp: any[] = []
-        fetch(`http://39.108.13.241:5000/api/skill/list`, requestOptions)
+        fetch(`${process.env.REACT_APP_BACKEND}/api/skill/list`, requestOptions)
             .then((res: any) =>
                 res.json()
             )

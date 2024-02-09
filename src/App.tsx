@@ -2,8 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
     createBrowserRouter,
-    createRoutesFromElements,
-    Route,
     RouterProvider
 } from 'react-router-dom'
 import Home from "./pages/Home";

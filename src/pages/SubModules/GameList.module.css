@@ -1,0 +1,4 @@
+.game_layout {
+    display: flex;
+    flex-direction: row;
+}

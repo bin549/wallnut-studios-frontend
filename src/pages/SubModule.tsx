@@ -12,7 +12,7 @@ const SubModule = () => {
                             key={index}
                         >
                             <Link to={module.link} className={classes.module_item_header}>
-                                <img src={module.image}/>
+                                <img alt={"untitle"} src={module.image}/>
                             </Link>
                             <div
                                 className={`${classes.module_item_body} ${index % 2 !== 0 ? classes.module_item_body_reverse : ''}`}
